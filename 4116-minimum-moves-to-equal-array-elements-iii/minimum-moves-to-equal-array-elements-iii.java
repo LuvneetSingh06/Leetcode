@@ -7,7 +7,7 @@ class Solution {
         }
     int ans=0;
         for(int num:nums){
-            ans+=Math.abs(a-num);
+            ans+=a-num;
         }
         return ans;
     }
