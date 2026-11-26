@@ -6,11 +6,11 @@ public:
         int a=10;
         int count=0;
 
-        while(n>=0){
+        while(n>=a){
             n=n-a;
             a--;
             count++;
         }
-        return (count%2)==0;
+        return (count%2)==1;
     }
 };
